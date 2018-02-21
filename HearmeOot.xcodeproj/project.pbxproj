@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D06E8871203D30F600F5F846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E8870203D30F600F5F846 /* AppDelegate.swift */; };
+		D06E8873203D30F600F5F846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E8872203D30F600F5F846 /* ViewController.swift */; };
+		D06E8876203D30F600F5F846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06E8874203D30F600F5F846 /* Main.storyboard */; };
+		D06E8878203D30F600F5F846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06E8877203D30F600F5F846 /* Assets.xcassets */; };
+		D06E887B203D30F600F5F846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06E8879203D30F600F5F846 /* LaunchScreen.storyboard */; };
+		D06E8886203D30F600F5F846 /* HearmeOotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E8885203D30F600F5F846 /* HearmeOotTests.swift */; };
+		D06E8891203D30F600F5F846 /* HearmeOotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E8890203D30F600F5F846 /* HearmeOotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D06E8882203D30F600F5F846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D06E8865203D30F600F5F846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D06E886C203D30F600F5F846;
+			remoteInfo = HearmeOot;
+		};
+		D06E888D203D30F600F5F846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D06E8865203D30F600F5F846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D06E886C203D30F600F5F846;
+			remoteInfo = HearmeOot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D06E886D203D30F600F5F846 /* HearmeOot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearmeOot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06E8870203D30F600F5F846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D06E8872203D30F600F5F846 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D06E8875203D30F600F5F846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D06E8877203D30F600F5F846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D06E887A203D30F600F5F846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D06E887C203D30F600F5F846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06E8881203D30F600F5F846 /* HearmeOotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearmeOotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06E8885203D30F600F5F846 /* HearmeOotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearmeOotTests.swift; sourceTree = "<group>"; };
+		D06E8887203D30F600F5F846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06E888C203D30F600F5F846 /* HearmeOotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearmeOotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06E8890203D30F600F5F846 /* HearmeOotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearmeOotUITests.swift; sourceTree = "<group>"; };
+		D06E8892203D30F600F5F846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D06E886A203D30F600F5F846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06E887E203D30F600F5F846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06E8889203D30F600F5F846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D06E8864203D30F600F5F846 = {
+			isa = PBXGroup;
+			children = (
+				D06E886F203D30F600F5F846 /* HearmeOot */,
+				D06E8884203D30F600F5F846 /* HearmeOotTests */,
+				D06E888F203D30F600F5F846 /* HearmeOotUITests */,
+				D06E886E203D30F600F5F846 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D06E886E203D30F600F5F846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D06E886D203D30F600F5F846 /* HearmeOot.app */,
+				D06E8881203D30F600F5F846 /* HearmeOotTests.xctest */,
+				D06E888C203D30F600F5F846 /* HearmeOotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D06E886F203D30F600F5F846 /* HearmeOot */ = {
+			isa = PBXGroup;
+			children = (
+				D06E8870203D30F600F5F846 /* AppDelegate.swift */,
+				D06E8872203D30F600F5F846 /* ViewController.swift */,
+				D06E8874203D30F600F5F846 /* Main.storyboard */,
+				D06E8877203D30F600F5F846 /* Assets.xcassets */,
+				D06E8879203D30F600F5F846 /* LaunchScreen.storyboard */,
+				D06E887C203D30F600F5F846 /* Info.plist */,
+			);
+			path = HearmeOot;
+			sourceTree = "<group>";
+		};
+		D06E8884203D30F600F5F846 /* HearmeOotTests */ = {
+			isa = PBXGroup;
+			children = (
+				D06E8885203D30F600F5F846 /* HearmeOotTests.swift */,
+				D06E8887203D30F600F5F846 /* Info.plist */,
+			);
+			path = HearmeOotTests;
+			sourceTree = "<group>";
+		};
+		D06E888F203D30F600F5F846 /* HearmeOotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D06E8890203D30F600F5F846 /* HearmeOotUITests.swift */,
+				D06E8892203D30F600F5F846 /* Info.plist */,
+			);
+			path = HearmeOotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D06E886C203D30F600F5F846 /* HearmeOot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06E8895203D30F600F5F846 /* Build configuration list for PBXNativeTarget "HearmeOot" */;
+			buildPhases = (
+				D06E8869203D30F600F5F846 /* Sources */,
+				D06E886A203D30F600F5F846 /* Frameworks */,
+				D06E886B203D30F600F5F846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HearmeOot;
+			productName = HearmeOot;
+			productReference = D06E886D203D30F600F5F846 /* HearmeOot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D06E8880203D30F600F5F846 /* HearmeOotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06E8898203D30F600F5F846 /* Build configuration list for PBXNativeTarget "HearmeOotTests" */;
+			buildPhases = (
+				D06E887D203D30F600F5F846 /* Sources */,
+				D06E887E203D30F600F5F846 /* Frameworks */,
+				D06E887F203D30F600F5F846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D06E8883203D30F600F5F846 /* PBXTargetDependency */,
+			);
+			name = HearmeOotTests;
+			productName = HearmeOotTests;
+			productReference = D06E8881203D30F600F5F846 /* HearmeOotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D06E888B203D30F600F5F846 /* HearmeOotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06E889B203D30F600F5F846 /* Build configuration list for PBXNativeTarget "HearmeOotUITests" */;
+			buildPhases = (
+				D06E8888203D30F600F5F846 /* Sources */,
+				D06E8889203D30F600F5F846 /* Frameworks */,
+				D06E888A203D30F600F5F846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D06E888E203D30F600F5F846 /* PBXTargetDependency */,
+			);
+			name = HearmeOotUITests;
+			productName = HearmeOotUITests;
+			productReference = D06E888C203D30F600F5F846 /* HearmeOotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D06E8865203D30F600F5F846 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Peter Garbers";
+				TargetAttributes = {
+					D06E886C203D30F600F5F846 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D06E8880203D30F600F5F846 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D06E886C203D30F600F5F846;
+					};
+					D06E888B203D30F600F5F846 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D06E886C203D30F600F5F846;
+					};
+				};
+			};
+			buildConfigurationList = D06E8868203D30F600F5F846 /* Build configuration list for PBXProject "HearmeOot" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D06E8864203D30F600F5F846;
+			productRefGroup = D06E886E203D30F600F5F846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D06E886C203D30F600F5F846 /* HearmeOot */,
+				D06E8880203D30F600F5F846 /* HearmeOotTests */,
+				D06E888B203D30F600F5F846 /* HearmeOotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D06E886B203D30F600F5F846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06E887B203D30F600F5F846 /* LaunchScreen.storyboard in Resources */,
+				D06E8878203D30F600F5F846 /* Assets.xcassets in Resources */,
+				D06E8876203D30F600F5F846 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06E887F203D30F600F5F846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06E888A203D30F600F5F846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D06E8869203D30F600F5F846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06E8873203D30F600F5F846 /* ViewController.swift in Sources */,
+				D06E8871203D30F600F5F846 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06E887D203D30F600F5F846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06E8886203D30F600F5F846 /* HearmeOotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06E8888203D30F600F5F846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06E8891203D30F600F5F846 /* HearmeOotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D06E8883203D30F600F5F846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D06E886C203D30F600F5F846 /* HearmeOot */;
+			targetProxy = D06E8882203D30F600F5F846 /* PBXContainerItemProxy */;
+		};
+		D06E888E203D30F600F5F846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D06E886C203D30F600F5F846 /* HearmeOot */;
+			targetProxy = D06E888D203D30F600F5F846 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D06E8874203D30F600F5F846 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06E8875203D30F600F5F846 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D06E8879203D30F600F5F846 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06E887A203D30F600F5F846 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D06E8893203D30F600F5F846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D06E8894203D30F600F5F846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D06E8896203D30F600F5F846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearmeOot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.HearmeOot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D06E8897203D30F600F5F846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearmeOot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.HearmeOot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D06E8899203D30F600F5F846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearmeOotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.HearmeOotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearmeOot.app/HearmeOot";
+			};
+			name = Debug;
+		};
+		D06E889A203D30F600F5F846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearmeOotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.HearmeOotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearmeOot.app/HearmeOot";
+			};
+			name = Release;
+		};
+		D06E889C203D30F600F5F846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearmeOotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.HearmeOotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HearmeOot;
+			};
+			name = Debug;
+		};
+		D06E889D203D30F600F5F846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HearmeOotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.HearmeOotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HearmeOot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D06E8868203D30F600F5F846 /* Build configuration list for PBXProject "HearmeOot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06E8893203D30F600F5F846 /* Debug */,
+				D06E8894203D30F600F5F846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06E8895203D30F600F5F846 /* Build configuration list for PBXNativeTarget "HearmeOot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06E8896203D30F600F5F846 /* Debug */,
+				D06E8897203D30F600F5F846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06E8898203D30F600F5F846 /* Build configuration list for PBXNativeTarget "HearmeOotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06E8899203D30F600F5F846 /* Debug */,
+				D06E889A203D30F600F5F846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06E889B203D30F600F5F846 /* Build configuration list for PBXNativeTarget "HearmeOotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06E889C203D30F600F5F846 /* Debug */,
+				D06E889D203D30F600F5F846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D06E8865203D30F600F5F846 /* Project object */;
+}
