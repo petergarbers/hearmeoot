@@ -20,7 +20,8 @@ class ViewController: UIViewController {
             // Passing in userdefaults like this is ugly
             twitterLogin(defaults: defaults)
         } else {
-            print("NOTHING TO SEE HERE: \(defaults.object(forKey: "username"))")
+            print("NOTHING TO SEE HERE: \(String(describing: defaults.object(forKey: "username")))")
+            switchScreen();
         }
     }
 
@@ -33,16 +34,22 @@ class ViewController: UIViewController {
     func twitterLogin(defaults: UserDefaults) {
         let logInButton = TWTRLogInButton(logInCompletion: { session, error in
             if (session != nil) {
-                print("signed in as \(session?.userName)");
+                print("signed in as \(String(describing: session?.userName))");
                 defaults.setValue(session?.userName, forKey: "username")
             } else {
-                print("error: \(error?.localizedDescription)");
+                print("error: \(String(describing: error?.localizedDescription))");
             }
         })
         logInButton.center = self.view.center
         self.view.addSubview(logInButton)
     }
-
+    
+    func switchScreen() {
+        
+//        let next:TweetViewController = TweetViewController()
+//        self.present(next, animated: true, completion: nil)
+    }
+    
 
 }
 
