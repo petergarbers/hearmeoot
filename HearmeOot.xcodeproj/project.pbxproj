@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9A9082C3981DC3273AED7E7 /* Pods_HearmeOotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF80EC3E850414CE2F6EAF6F /* Pods_HearmeOotTests.framework */; };
+		BD4253B34A7EF752972CA83D /* Pods_HearmeOot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986F2BB23A204517E0650121 /* Pods_HearmeOot.framework */; };
 		D06E8871203D30F600F5F846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E8870203D30F600F5F846 /* AppDelegate.swift */; };
 		D06E8873203D30F600F5F846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E8872203D30F600F5F846 /* ViewController.swift */; };
 		D06E8876203D30F600F5F846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06E8874203D30F600F5F846 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		D06E887B203D30F600F5F846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06E8879203D30F600F5F846 /* LaunchScreen.storyboard */; };
 		D06E8886203D30F600F5F846 /* HearmeOotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E8885203D30F600F5F846 /* HearmeOotTests.swift */; };
 		D06E8891203D30F600F5F846 /* HearmeOotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E8890203D30F600F5F846 /* HearmeOotUITests.swift */; };
+		DA9A96365CF7D7EF319A9AC5 /* Pods_HearmeOotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACAB74DBC9738A648F901ED /* Pods_HearmeOotUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ACAB74DBC9738A648F901ED /* Pods_HearmeOotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HearmeOotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C3084D6A7BB059C60EC7D5 /* Pods-HearmeOotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearmeOotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HearmeOotTests/Pods-HearmeOotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B47A17BAFF2FF6B721E1A3C /* Pods-HearmeOotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearmeOotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HearmeOotUITests/Pods-HearmeOotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64F195BDF9FB21B70D6FCE71 /* Pods-HearmeOot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearmeOot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HearmeOot/Pods-HearmeOot.debug.xcconfig"; sourceTree = "<group>"; };
+		986F2BB23A204517E0650121 /* Pods_HearmeOot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HearmeOot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98AE8DF035C6AE934C1CCA23 /* Pods-HearmeOot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearmeOot.release.xcconfig"; path = "Pods/Target Support Files/Pods-HearmeOot/Pods-HearmeOot.release.xcconfig"; sourceTree = "<group>"; };
+		BDE235BE12451EB7B8CFC7D1 /* Pods-HearmeOotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearmeOotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HearmeOotTests/Pods-HearmeOotTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF80EC3E850414CE2F6EAF6F /* Pods_HearmeOotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HearmeOotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06E886D203D30F600F5F846 /* HearmeOot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearmeOot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06E8870203D30F600F5F846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D06E8872203D30F600F5F846 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		D06E888C203D30F600F5F846 /* HearmeOotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearmeOotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06E8890203D30F600F5F846 /* HearmeOotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearmeOotUITests.swift; sourceTree = "<group>"; };
 		D06E8892203D30F600F5F846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E424509BB4708D60140C3421 /* Pods-HearmeOotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearmeOotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HearmeOotUITests/Pods-HearmeOotUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4253B34A7EF752972CA83D /* Pods_HearmeOot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A9082C3981DC3273AED7E7 /* Pods_HearmeOotTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA9A96365CF7D7EF319A9AC5 /* Pods_HearmeOotUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73E6D817809521CAA2542CA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				986F2BB23A204517E0650121 /* Pods_HearmeOot.framework */,
+				CF80EC3E850414CE2F6EAF6F /* Pods_HearmeOotTests.framework */,
+				0ACAB74DBC9738A648F901ED /* Pods_HearmeOotUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FC868B40992E212676FDC2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64F195BDF9FB21B70D6FCE71 /* Pods-HearmeOot.debug.xcconfig */,
+				98AE8DF035C6AE934C1CCA23 /* Pods-HearmeOot.release.xcconfig */,
+				27C3084D6A7BB059C60EC7D5 /* Pods-HearmeOotTests.debug.xcconfig */,
+				BDE235BE12451EB7B8CFC7D1 /* Pods-HearmeOotTests.release.xcconfig */,
+				2B47A17BAFF2FF6B721E1A3C /* Pods-HearmeOotUITests.debug.xcconfig */,
+				E424509BB4708D60140C3421 /* Pods-HearmeOotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D06E8864203D30F600F5F846 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				D06E8884203D30F600F5F846 /* HearmeOotTests */,
 				D06E888F203D30F600F5F846 /* HearmeOotUITests */,
 				D06E886E203D30F600F5F846 /* Products */,
+				8FC868B40992E212676FDC2F /* Pods */,
+				73E6D817809521CAA2542CA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D06E8895203D30F600F5F846 /* Build configuration list for PBXNativeTarget "HearmeOot" */;
 			buildPhases = (
+				DB3B8726FB52F8EF84EA6634 /* [CP] Check Pods Manifest.lock */,
 				D06E8869203D30F600F5F846 /* Sources */,
 				D06E886A203D30F600F5F846 /* Frameworks */,
 				D06E886B203D30F600F5F846 /* Resources */,
+				FD235BF07E42E5BDBA7A625C /* [CP] Embed Pods Frameworks */,
+				1DF4AEF5AC9101F977143DDA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D06E8898203D30F600F5F846 /* Build configuration list for PBXNativeTarget "HearmeOotTests" */;
 			buildPhases = (
+				9DCBA9A90F697C7EA9EF45AC /* [CP] Check Pods Manifest.lock */,
 				D06E887D203D30F600F5F846 /* Sources */,
 				D06E887E203D30F600F5F846 /* Frameworks */,
 				D06E887F203D30F600F5F846 /* Resources */,
+				BE139A3BAE8DECFCD94C3283 /* [CP] Embed Pods Frameworks */,
+				4BCDCBFF39D7B7C25E8B25C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D06E889B203D30F600F5F846 /* Build configuration list for PBXNativeTarget "HearmeOotUITests" */;
 			buildPhases = (
+				7A4A1EE387739295BD669EB2 /* [CP] Check Pods Manifest.lock */,
 				D06E8888203D30F600F5F846 /* Sources */,
 				D06E8889203D30F600F5F846 /* Frameworks */,
 				D06E888A203D30F600F5F846 /* Resources */,
+				2701A3C23DA0A597634370FB /* [CP] Embed Pods Frameworks */,
+				ADA0DF8F0599379F9CA1DACB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,162 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DF4AEF5AC9101F977143DDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HearmeOot/Pods-HearmeOot-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HearmeOot/Pods-HearmeOot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2701A3C23DA0A597634370FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HearmeOotUITests/Pods-HearmeOotUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BCDCBFF39D7B7C25E8B25C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HearmeOotTests/Pods-HearmeOotTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A4A1EE387739295BD669EB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HearmeOotUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DCBA9A90F697C7EA9EF45AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HearmeOotTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADA0DF8F0599379F9CA1DACB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HearmeOotUITests/Pods-HearmeOotUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE139A3BAE8DECFCD94C3283 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HearmeOotTests/Pods-HearmeOotTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB3B8726FB52F8EF84EA6634 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HearmeOot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD235BF07E42E5BDBA7A625C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HearmeOot/Pods-HearmeOot-frameworks.sh",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HearmeOot/Pods-HearmeOot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D06E8869203D30F600F5F846 /* Sources */ = {
@@ -424,6 +629,7 @@
 		};
 		D06E8896203D30F600F5F846 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F195BDF9FB21B70D6FCE71 /* Pods-HearmeOot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +644,7 @@
 		};
 		D06E8897203D30F600F5F846 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98AE8DF035C6AE934C1CCA23 /* Pods-HearmeOot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +659,7 @@
 		};
 		D06E8899203D30F600F5F846 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C3084D6A7BB059C60EC7D5 /* Pods-HearmeOotTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +676,7 @@
 		};
 		D06E889A203D30F600F5F846 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDE235BE12451EB7B8CFC7D1 /* Pods-HearmeOotTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +693,7 @@
 		};
 		D06E889C203D30F600F5F846 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B47A17BAFF2FF6B721E1A3C /* Pods-HearmeOotUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +709,7 @@
 		};
 		D06E889D203D30F600F5F846 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E424509BB4708D60140C3421 /* Pods-HearmeOotUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
