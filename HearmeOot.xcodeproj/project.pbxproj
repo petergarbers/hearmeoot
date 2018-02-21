@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B9A9082C3981DC3273AED7E7 /* Pods_HearmeOotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF80EC3E850414CE2F6EAF6F /* Pods_HearmeOotTests.framework */; };
 		BD4253B34A7EF752972CA83D /* Pods_HearmeOot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986F2BB23A204517E0650121 /* Pods_HearmeOot.framework */; };
+		D06ADDC8203D49ED007E9A05 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06ADDC7203D49ED007E9A05 /* TweetViewController.swift */; };
 		D06E8871203D30F600F5F846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E8870203D30F600F5F846 /* AppDelegate.swift */; };
 		D06E8873203D30F600F5F846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E8872203D30F600F5F846 /* ViewController.swift */; };
 		D06E8876203D30F600F5F846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06E8874203D30F600F5F846 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		98AE8DF035C6AE934C1CCA23 /* Pods-HearmeOot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearmeOot.release.xcconfig"; path = "Pods/Target Support Files/Pods-HearmeOot/Pods-HearmeOot.release.xcconfig"; sourceTree = "<group>"; };
 		BDE235BE12451EB7B8CFC7D1 /* Pods-HearmeOotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearmeOotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HearmeOotTests/Pods-HearmeOotTests.release.xcconfig"; sourceTree = "<group>"; };
 		CF80EC3E850414CE2F6EAF6F /* Pods_HearmeOotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HearmeOotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06ADDC7203D49ED007E9A05 /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
 		D06E886D203D30F600F5F846 /* HearmeOot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearmeOot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06E8870203D30F600F5F846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D06E8872203D30F600F5F846 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		D06E886F203D30F600F5F846 /* HearmeOot */ = {
 			isa = PBXGroup;
 			children = (
+				D06ADDC7203D49ED007E9A05 /* TweetViewController.swift */,
 				D06E8870203D30F600F5F846 /* AppDelegate.swift */,
 				D06E8872203D30F600F5F846 /* ViewController.swift */,
 				D06E8874203D30F600F5F846 /* Main.storyboard */,
@@ -466,6 +469,7 @@
 			files = (
 				D06E8873203D30F600F5F846 /* ViewController.swift in Sources */,
 				D06E8871203D30F600F5F846 /* AppDelegate.swift in Sources */,
+				D06ADDC8203D49ED007E9A05 /* TweetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
